@@ -18,4 +18,4 @@ REPOSITORY_PATH: str = _clone_to_cache(
 
 PACKAGE_PATH: str = _path.join(REPOSITORY_PATH, "robots", "h1_2_description")
 
-URDF_PATH: str = _path.join(PACKAGE_PATH, "urdf", "h1_2.urdf")
+URDF_PATH: str = _path.join(PACKAGE_PATH, "h1_2.urdf")
